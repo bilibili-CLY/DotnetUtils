@@ -1,0 +1,5 @@
+- [DotnetUtils.字符串 命名空间](df425352-b368-5c6e-b31a-42f9cfd26b29)
+  - [StringHelper 类](ec68410a-f594-19ea-564b-12e32d053216)
+    - [StringHelper 构造函数](01604173-e959-3c2e-9bcc-1dc51e7f5075)
+    - [StringHelper 方法](24b856b4-9100-b5d0-8234-38261c2b24af)
+      - [SplitStrToList 方法](f7db4c71-0b03-9223-e064-563c501a74eb)
