@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="E:\clyPersonalProject\DotnetUtils\DotnetUtilsSHFB.shfbproj" started="2025/10/21 13:50:38">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2025.9.30.0" projectFile="E:\clyPersonalProject\DotnetUtils\DotnetUtilsSHFB.shfbproj" started="2025/10/21 14:14:04">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;D:\Apps\SHFB&#39;
 Locating components in the following folder(s):
@@ -7,9 +7,13 @@ Locating components in the following folder(s):
     C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
     D:\Apps\SHFB\Components
 Using framework reflection data for &#39;.NET Core/.NET Standard/.NET 5.0+&#39; located in &#39;D:\Apps\SHFB\Data\.NET&#39;
-Using presentation style &#39;Markdown&#39; located in &#39;D:\Apps\SHFB\Components\Markdown&#39;
--------------------------------
-Clearing any prior web/markdown output...
+Using presentation style &#39;VS2013&#39; located in &#39;D:\Apps\SHFB\Components\VS2013&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2025.9.30.0
+Copyright &#169; 2006-2025, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -22,18 +26,19 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (zh-CN, 中文(简体，中国))...
-    Last step completed in 00:00:00.0010
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0040
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[D:\Apps\VisualStudio\Insider\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-907b3d7d-4678-4a42-a001-29565e79c55a.proj]
-鐢熸垚鍚姩鏃堕棿涓?2025/10/21 13:50:39銆?
+[D:\Apps\VisualStudio\Insider\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-d9f3a722-a3fc-4970-9d5e-7b2ef74b9589.proj]
+鐢熸垚鍚姩鏃堕棿涓?2025/10/21 14:14:04銆?
 
-鑺傜偣 1 涓婄殑椤圭洰鈥淓:\clyPersonalProject\DotnetUtils\Help\Working\GenerateRefInfo-907b3d7d-4678-4a42-a001-29565e79c55a.proj鈥?榛樿鐩爣)銆?
+鑺傜偣 1 涓婄殑椤圭洰鈥淓:\clyPersonalProject\DotnetUtils\Help\Working\GenerateRefInfo-d9f3a722-a3fc-4970-9d5e-7b2ef74b9589.proj鈥?榛樿鐩爣)銆?
 PrepareForBuild:
   姝ｅ湪鍒涘缓鐩綍鈥渙bj\Debug\鈥濄€?
 GenerateRefInfo:
@@ -45,24 +50,24 @@ GenerateRefInfo:
   Wrote information on 1 namespaces, 1 types, and 2 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-宸插畬鎴愮敓鎴愰」鐩€淓:\clyPersonalProject\DotnetUtils\Help\Working\GenerateRefInfo-907b3d7d-4678-4a42-a001-29565e79c55a.proj鈥?榛樿鐩爣)鐨勬搷浣溿€?
-    Last step completed in 00:00:00.4363
+宸插畬鎴愮敓鎴愰」鐩€淓:\clyPersonalProject\DotnetUtils\Help\Working\GenerateRefInfo-d9f3a722-a3fc-4970-9d5e-7b2ef74b9589.proj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+    Last step completed in 00:00:00.5066
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0230
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.0170
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0114
+    Last step completed in 00:00:00.0130
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0120
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -76,22 +81,22 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0015
+    Last step completed in 00:00:00.0100
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.0426
+    Last step completed in 00:00:00.1941
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0080
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 E:\clyPersonalProject\DotnetUtils\Help\Working\BuildAssembler.config
   Updating reference topic configurations.
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0160
+    Last step completed in 00:00:00.0484
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
@@ -100,36 +105,125 @@ Processing topics...
 Processed 5 topic(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
-    Last step completed in 00:00:02.0278
+    Last step completed in 00:00:02.2345
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+Using LCID &#39;2052&#39;, code page &#39;936&#39;, encoding charset &#39;gb2312&#39;.
+Processing Help 1 files in E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1
+Processed 5 HTML files.  Sorting keywords and generating See Also indices.
+Saving HTML Help 1 keyword index to E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\DotNet工具类文档说明.hhk
+Saving HTML Help 1 table of contents to E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\DotNet工具类文档说明.hhc
+    Last step completed in 00:00:00.0330
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-D:\Apps\SHFB\Components\Markdown\media\AlertCaution.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\media\AlertCaution.png
-D:\Apps\SHFB\Components\Markdown\media\AlertLanguage.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\media\AlertLanguage.png
-D:\Apps\SHFB\Components\Markdown\media\AlertNote.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\media\AlertNote.png
-D:\Apps\SHFB\Components\Markdown\media\AlertSecurity.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\media\AlertSecurity.png
-D:\Apps\SHFB\Components\Markdown\media\AlertToDo.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\media\AlertToDo.png
-D:\Apps\SHFB\Components\Markdown\MarkdownContent\_Footer.md -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\Markdown\_Footer.md
-    Last step completed in 00:00:00.0040
+D:\Apps\SHFB\Components\VS2013\icons\AlertCaution.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+D:\Apps\SHFB\Components\VS2013\icons\AlertNote.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+D:\Apps\SHFB\Components\VS2013\icons\AlertSecurity.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+D:\Apps\SHFB\Components\VS2013\icons\CodeExample.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+D:\Apps\SHFB\Components\VS2013\icons\favicon.ico -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+D:\Apps\SHFB\Components\VS2013\icons\privClass.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privClass.gif
+D:\Apps\SHFB\Components\VS2013\icons\privDelegate.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
+D:\Apps\SHFB\Components\VS2013\icons\privEnumeration.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
+D:\Apps\SHFB\Components\VS2013\icons\privEvent.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
+D:\Apps\SHFB\Components\VS2013\icons\privExtension.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
+D:\Apps\SHFB\Components\VS2013\icons\privField.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privField.gif
+D:\Apps\SHFB\Components\VS2013\icons\privInterface.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
+D:\Apps\SHFB\Components\VS2013\icons\privMethod.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
+D:\Apps\SHFB\Components\VS2013\icons\privProperty.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
+D:\Apps\SHFB\Components\VS2013\icons\privStructure.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
+D:\Apps\SHFB\Components\VS2013\icons\protClass.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protClass.gif
+D:\Apps\SHFB\Components\VS2013\icons\protDelegate.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
+D:\Apps\SHFB\Components\VS2013\icons\protEnumeration.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
+D:\Apps\SHFB\Components\VS2013\icons\protEvent.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
+D:\Apps\SHFB\Components\VS2013\icons\protExtension.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
+D:\Apps\SHFB\Components\VS2013\icons\protField.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protField.gif
+D:\Apps\SHFB\Components\VS2013\icons\protInterface.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
+D:\Apps\SHFB\Components\VS2013\icons\protMethod.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
+D:\Apps\SHFB\Components\VS2013\icons\protOperator.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
+D:\Apps\SHFB\Components\VS2013\icons\protProperty.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
+D:\Apps\SHFB\Components\VS2013\icons\protStructure.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubClass.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubDelegate.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubEnumeration.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubEvent.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubExtension.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubField.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubField.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubInterface.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubMethod.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubOperator.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubProperty.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
+D:\Apps\SHFB\Components\VS2013\icons\pubStructure.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
+D:\Apps\SHFB\Components\VS2013\icons\SectionCollapsed.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+D:\Apps\SHFB\Components\VS2013\icons\SectionExpanded.png -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+D:\Apps\SHFB\Components\VS2013\icons\Static.gif -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\icons\Static.gif
+D:\Apps\SHFB\Components\VS2013\scripts\branding.js -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\scripts\branding.js
+D:\Apps\SHFB\Components\VS2013\styles\branding-cs-CZ.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-de-DE.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-en-US.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-es-ES.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-fr-FR.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-Help1.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-HelpViewer.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-it-IT.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-ja-JP.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-ko-KR.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-pl-PL.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-pt-BR.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-ru-RU.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-tr-TR.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-Website.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-zh-CN.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+D:\Apps\SHFB\Components\VS2013\styles\branding-zh-TW.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+D:\Apps\SHFB\Components\VS2013\styles\branding.css -&gt; E:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00.0376
 </buildStep>
 <buildStep step="GenerateHelpProject">
-Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
-    Last step completed in 00:00:00.0000
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0085
 </buildStep>
 <buildStep step="CompilingHelpFile">
-Generating markdown content...
-Finished generating 5 topics
-Copying content to output folder...
-Finished copying 13 files
-    Last step completed in 00:00:00.0080
+Compiling HTML Help 1 file...
+[D:\Apps\VisualStudio\Insider\MSBuild\Current\Bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling e:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\DotNet宸ュ叿绫绘枃妗ｈ鏄?chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  7	Topics
+  
+  42	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created e:\clyPersonalProject\DotnetUtils\Help\Working\Output\HtmlHelp1\DotNet宸ュ叿绫绘枃妗ｈ鏄?chm, 53,387 bytes
+  
+  Compression decreased file by 64,170 bytes.
+  
+    Last step completed in 00:00:00.9905
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0055
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2025/10/21 13:50:41.  Total time: 00:00:02.9000
+Build completed successfully at 2025/10/21 14:14:08.  Total time: 00:00:04.5031
 
 </buildStep>
 </shfbBuild>
